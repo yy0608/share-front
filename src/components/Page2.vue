@@ -1,0 +1,39 @@
+<template>
+<section>
+  <section>
+    <h2>前后端分离</h2>
+    <ul>
+      <li>不分离优点</li>
+      <li>分离后优点</li>
+      <li>适用场景</li>
+    </ul>
+  </section>
+  <section>
+    <h2>前后端不分离优点</h2>
+    <ul>
+      <li>少量开发快，减少沟通</li>
+      <li>页面加载快</li>
+      <li>seo效果好</li>
+    </ul>
+  </section>
+  <section>
+    <h2>前后端分离优点</h2>
+    <ul>
+      <li>分工协作，做到更好</li>
+      <li>某些场景体验好</li>
+      <li>复用性好</li>
+    </ul>
+  </section>
+  <section>
+    <h2>适用场景</h2>
+    <ul>
+      <li>企业官网</li>
+      <li>后台系统</li>
+      <li>多平台终端</li>
+    </ul>
+  </section>
+</section>
+</template>
+
+<style scoped>
+</style>
