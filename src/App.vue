@@ -15,20 +15,14 @@
 
 <script>
 import Reveal from 'reveal.js/js/reveal';
-// import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js'
+// import highlight from 'reveal.js/plugin/highlight/highlight.js'
 import { Page1, Page2, Page3, Page4 } from './components'
 
 export default {
   mounted() {
-    // for (const key in deck) {
-    //   console.log(key)
-    // }
-    // setTimeout(() => {
-    //   Reveal.initialize()
-    // }, 2000)
-
     Reveal.initialize({
       slideNumber: true
+      // plugins: [highlight]
     });
   },
   components: {
@@ -39,7 +33,7 @@ export default {
 
 <style scoped>
 @import url('../node_modules/reveal.js/css/reveal.css');
-@import url('../node_modules/reveal.js/css/theme/black.css');
+@import url('../node_modules/reveal.js/css/theme/white.css');
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

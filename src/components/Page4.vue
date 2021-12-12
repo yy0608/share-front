@@ -8,6 +8,17 @@
       <li>前端展望</li>
     </ul>
   </section>
+
+  <section>
+    <div style="float: left;">
+      <p>Vue3.0</p>
+      <img src="@/assets/4.1.png" width="30%">
+    </div>
+    <div style="float: left;">
+      <p>Vue3.2</p>
+      <img src="@/assets/2.png" width="30%">
+    </div>
+  </section>
 </section>
 </template>
 
