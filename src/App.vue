@@ -33,7 +33,8 @@ export default {
 
 <style scoped>
 @import url('../node_modules/reveal.js/css/reveal.css');
-@import url('../node_modules/reveal.js/css/theme/white.css');
+@import url('../node_modules/reveal.js/css/theme/black.css');
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
