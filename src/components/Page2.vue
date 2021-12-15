@@ -3,13 +3,18 @@
   <section data-transition="convex">
     <h2>前后端分离</h2>
     <ul>
-      <li class="fragment">不分离优点</li>
+      <li class="fragment">SSR优点</li>
       <li class="fragment">分离后优点</li>
-      <li class="fragment">适用场景</li>
+      <li class="fragment">各自适用场景</li>
     </ul>
   </section>
   <section data-transition="convex">
-    <h2>前后端不分离优点</h2>
+    <div>
+      <img src="@/assets/5.png" alt="">
+    </div>
+  </section>
+  <section data-transition="convex">
+    <h2>前后端不分离（SSR）优点</h2>
     <ul>
       <li class="fragment">开发快速</li>
       <li class="fragment">页面加载快</li>
@@ -44,11 +49,6 @@
     </ul>
   </section>
   <section data-transition="convex">
-    <div>
-      <img src="@/assets/5.png" alt="">
-    </div>
-  </section>
-  <section data-transition="convex">
     <h2>适用场景</h2>
     <ul>
       <li class="fragment">
@@ -59,6 +59,9 @@
       </li>
       <li class="fragment">
         <div>多平台终端<span class="fragment">  --- 前后端分离</span></div>
+      </li>
+      <li class="fragment">
+        <div>综合优化<span class="fragment">  --- SSR + CSR</span></div>
       </li>
     </ul>
   </section>

@@ -44,4 +44,19 @@ export default {
   /* margin-top: 60px; */
   height: 100vh;
 }
+#app:before, #app:after {
+  content: '高友谊-易仓物流软件WMS';
+  position: fixed;
+  color: #fff;
+  transform: rotate(-10deg);
+  opacity: .5;
+}
+#app:before {
+  right: 10px;
+  top: 30px;
+}
+#app:after {
+  left: 20px;
+  bottom: 30px;
+}
 </style>

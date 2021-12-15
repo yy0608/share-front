@@ -6,9 +6,9 @@
       <details>
         <summary>前后端分离</summary>
         <ol>
-          <li>不分离优点</li>
-          <li>分离后优点</li>
-          <li>适用场景</li>
+          <li>不分离(SSR)优点</li>
+          <li>前端分离后优点</li>
+          <li>各自适用场景</li>
         </ol>
       </details>
     </div>
@@ -24,9 +24,8 @@
       <details>
         <summary>Vue3组合式API</summary>
         <ol>
-          <li>版本历史</li>
+          <li>版本比较</li>
           <li>组合式API</li>
-          <li>前端展望</li>
         </ol>
       </details>
     </div>

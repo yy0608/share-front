@@ -2,9 +2,23 @@
 <section>
   <section>
     <h2>jQuery和Vue</h2>
-    <div style="text-align: left;">
+    <div style="text-align: center;">
       <p class="fragment">jQuery是一个JavaScript函数库</p>
-      <p class="fragment">Vue是一套用于构建用户界面的渐进式框架</p>
+      <p class="fragment">Vue是构建用户界面的渐进式框架</p>
+    </div>
+    <div class="fragment">
+      <img src="@/assets/7.png" width="60%">
+    </div>
+  </section>
+
+  <section data-transition="convex">
+    <div>
+      <p style="float: left;">jQuery</p>
+      <img src="@/assets/6.1.jpg" width="40%">
+    </div>
+    <div>
+      <p style="float: left;">Vue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <img src="@/assets/6.2.jpg" width="40%">
     </div>
   </section>
 

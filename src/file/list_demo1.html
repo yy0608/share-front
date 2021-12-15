@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  
+</body>
+<script>
+var list = [
+  {
+    name: '小明',
+    age: 18,
+    hobby: 'basketball'
+  },
+  {
+    name: '小红',
+    age: 16,
+    hobby: 'cooking'
+  },
+  {
+    name: '小三',
+    age: 20,
+    hobby: 'swim'
+  }
+]
+
+var htmlStr = ''
+htmlStr += '<ul>';
+$.each(list, function (k, v) {
+  htmlStr += '<li>';
+  htmlStr += '<span>姓名：';
+  htmlStr += v.name;
+  htmlStr += '</span>';
+  htmlStr += '<span>，年龄：';
+  htmlStr += v.age;
+  htmlStr += '</span>';
+  htmlStr += '<span>，爱好：';
+  htmlStr += v.hobby;
+  htmlStr += '</span>';
+})
+htmlStr += '</ul>';
+$('body').append(htmlStr)
+</script>
+</html>
