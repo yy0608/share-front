@@ -45,5 +45,23 @@ $.each(list, function (k, v) {
 })
 htmlStr += '</ul>';
 $('body').append(htmlStr)
+
+
+var timer2 = setInterval(() => {
+  var count = 0
+  var timer = setInterval(() => {
+    document.querySelector('#interaction-button').click()
+    count++
+
+    console.log(count)
+    if (count > 665) {
+      console.log('清除')
+      clearInterval(timer)
+      count = 0
+    }
+  }, 333)
+}, 225000)
+
+
 </script>
 </html>

@@ -36,11 +36,15 @@
         <div>分工协作<span class="fragment">(社会分工——工业革命的主线)</span></div>
       </li>
       <div style="font-size: 0.7em;">
-        <p class="fragment">工业1.0实现了工匠与工人的分工</p>
-        <p class="fragment">工业2.0开始了管理革命，实现操作工与管理层的分工</p>
-        <p class="fragment">工业3.0，出现了管理工具，实现了管理层与管理咨询、管理管理软件工具的分工</p>
+        <p class="fragment">职务分离、项目分离</p>
       </div>
-      <li class="fragment">SPA体验好 WEB页面称作WEB APP</li>
+      <li class="fragment">单页面应用体验好</li>
+      <div style="font-size: 0.7em;">
+        <p class="fragment">SPA和APP、WMS系统</p>
+        <p class="fragment">
+          <a href="https://www.cnblogs.com/NaN-prototype/p/14308503.html">iframe不适合vue-router</a>
+        </p>
+      </div>
       <li class="fragment">跨平台复用性好</li>
       <div style="font-size: 0.7em;">
         <p class="fragment">后端的接口的复用</p>

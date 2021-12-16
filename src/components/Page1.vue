@@ -6,8 +6,8 @@
       <details>
         <summary>前后端分离</summary>
         <ol>
-          <li>不分离(SSR)优点</li>
-          <li>前端分离后优点</li>
+          <li>各自的特点</li>
+          <li>单页面应用</li>
           <li>各自适用场景</li>
         </ol>
       </details>
